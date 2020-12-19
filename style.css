@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stpage{
+   width: 100%;
+   height: 100vh;
+
+}
+.top{
+    width: 100%;
+  display: flex;
+border: 2px solid gray;
+height: 6vh;
+padding-top: 5px;
+color: orangered;
+}
+.msg,.fb,.pin,.twitter{
+    width: 20px;
+    height: 25px;
+}
+.reg{
+    padding-left: 250px;
+}
+.msg{
+    margin-left: 30px;
+}
+.image1{
+    position: absolute;
+    right: 10px;
+}
+.admi{
+    padding-left: 200px;
+}
+.logo{
+    width: 100%;
+    height: 20vh;
+}
+
+.logoimg{
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+}
+.logobt{
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+#campus{
+  margin-right: 30px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: whitesmoke;
+    background-color: green;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#online{
+    margin-right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: whitesmoke;
+    background-color: orangered;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#admission{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: whitesmoke;
+    background-color: orangered;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    animation: anime 2s linear infinite;
+}
+@keyframes anime{
+    0%{background-color: red;}
+  
+    50%{background-color: navy;}
+    100%{background-color: red;}
+}
+.menu{
+    width: 100%;
+    height: 6vh;
+    background-color: orangered;
+    position: static;
+   
+}
+ul{
+    display: flex;
+    
+    justify-content: space-evenly;
+    height: 6vh;
+    align-items: center;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 97%;
+    top:-32px;
+    cursor: pointer;
+}
+li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.body{
+   width: 100%;
+    height: 68vh;
+ 
+    
+    
+}
+    /*background-image: url('bcet.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1370px 480px;
+    background-image: url('bcet3.jpg');
+    
+    animation: backanime 20s infinite;
+    animation-timing-function: ease-in;
+    animation-direction: unset;
+    transition: 2s;
+
+}
+@keyframes backanime{
+    0%{background-image: url('bcet.jpg');}
+    50%{background-image: url('bcet3.jpg');
+    background-size: 1370px 450px;}
+    75%{background-image: url('lib.jpeg');}
+    100%{background-image: url('bcet.jpg');}
+
+}
+.car{
+    width: 300%;
+    display: flex;
+}*/
+.bcet{
+ width: 1348px;
+ height: 446px;
+transition: 5s;
+}
+.bcet3{
+   width: 1366px;
+    height: 440px;
+   transition: 5s;
+}
+.lib{
+    width: 1366px;
+   height: 430px;
+ transition: 5s;
+   
+ 
+}
+.left{
+    position: absolute;
+    bottom: 160px;
+    left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+.right{
+    position: absolute;
+    bottom: 160px;
+    right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.left:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.right:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+.notice{
+    width: 100%;
+    height: 10vh;
+    
+}
+section .imp{
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: whitesmoke;
+    background-color: rgb(0, 102, 128);
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 20px;
+    animation: imp 6s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+section .achiev{
+    
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: whitesmoke;
+    background-color: green;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 60px;
+    font-size: 20px;
+}
+section .students{
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: whitesmoke;
+    background-color: red;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 60px;
+    font-size: 20px;
+}
+@keyframes imp{
+    0%{transform: translateX(-150%);}
+    100%{transform: translateX(0%);}
+}
+.notice1{
+    width: 100%;
+    height: 10vh;
+    
+}
+.notice1 .urgent{
+   
+   float: right;
+   padding-top: 20px;
+   padding-right: 10%;
+   animation: urg 15s infinite;
+   transition: 2s;
+}
+.notice1 .annouc{
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: whitesmoke;
+    background-color: red;
+    box-shadow: 6px 6px 5px 2px rgb(160, 153, 153) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 54px;
+    font-size: 20px;
+}
+@keyframes urg{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-50%);}
+}
+.Placements{
+    width: 100%;
+    height: 50vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.placement_highlights{
+    width: 30%;
+    height: 50vh;
+    border-bottom: 3px solid orangered;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.courses{
+    width: 30%;
+    height: 50vh;
+    border-bottom: 3px solid orangered;
+}
+.approve{
+    width: 30%;
+    height: 50vh;
+    border-bottom: 3px solid orangered;
+}
+.plcimg{
+    padding-left: 50px;
+    width: 350px;
+    height: 250px;
+    
+}
+.imaage{
+    display: flex;
+    
+   
+    
+}
+.plcimg1{
+    animation: img 10s infinite;
+}
+@keyframes img{
+    0%{transform: translateX(50%);}
+    100%{transform: translateX(-100%);}
+}
+.courses{
+    text-align: center;
+    width: 30%;
+    height: 50vh;
+    overflow: hidden;
+}
+.corses{
+    padding-top: 20px;
+    animation: cor 15s infinite;
+}
+@keyframes cor{
+    0%{transform: translateY(120%);}
+    50%{transform: translateY(-0%);}
+    100%{transform: translateY(120%);}
+}
+.approve{
+    text-align: center;
+    width: 30%;
+    height: 50vh;
+}
+.makaut{
+    width: 350px;
+    height: 250px;
+}
+.down{
+    width: 100%;
+    height: 28vh;
+    
+    text-align: center;
+    padding-top: 50px;
+}
+.down h1{
+font-weight: bolder;
+font-style: italic;
+font-size: 30px;
+}

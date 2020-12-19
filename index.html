@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="stpage">
+        <div class="top">
+            <p>Call:8967363567,9867346091,7834091256</p>
+            <p class="reg">University registration for freshers | NIRF DATA </p>
+            <img src="msg.png" class="msg">
+            <p class="admi">admission@sksgi.com</p>
+            <br>
+            <br>
+            <div class="image1">
+            <img src="fb.png" class="fb">
+            <img src="pin.png" class="pin">
+            <img src="twitter.png" class="twitter">
+            </div>
+        </div>
+        <div class="logo">
+            <img src="logo.png" class="logoimg">
+            <div class="logobt">
+            <button id="online">Online Fee Payment</button>
+            <button id="campus">Campus Tour</button>
+            <button id="admission">Admission Query?<span id="click">Click here!</span>
+            </button>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Beyond Academics</a></li>
+                <li><a href="#">Infrastructure & Facilities</a></li>
+                <li><a href="#">Depts. & Labs.</a></li>
+                <li><a href="#">Hostels</a></li>
+                <li><a href="#">Placements</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="search.png" class="search">
+        </div>
+        <div class="body">
+            <div class="car" id="car1">
+            <img src="images/bcet.jpg" class="bcet" id="bcet" alt="">
+           
+         <button onclick="left()" class="left"><</button>
+         <button onclick="right()" class="right">></button>
+        </div>
+    </header>
+    <section>
+        <div class="notice">
+            <button class="imp">Important Notice</button>
+            <button class="achiev">Our achievements</button>
+            <button class="students">More than 6200 students placed</button>
+            </div>
+            <div class="notice1">
+                <button class="annouc">Announcements</button>
+                <p class="urgent">URGENT NOTICE:   Introduction Program Fresher | Fee Notice 2020 | </p>
+            </div>
+            <div class="Placements">
+                <div class="placement_highlights">
+                 <h3><u style="color: orangered;">Placement Highlights</u></h3>
+                 <div class="imaage">
+                 <img src="placement2.jpg" class="plcimg">
+                 <img src="placement2018.jpg" class="plcimg1">
+                </div>
+                </div>
+                <div class="courses">
+                 <h3><u style="color: orangered;">Courses we offer</u></h3>
+                 <div class="corses">
+                 <P>CSE-200</P>
+                 <p>IT-180</p>
+                 <p>ECE-150</p>
+                 <p>EEE-130</p>
+                 <p>EE-100</p>
+                 <p>CIVIL-80</p>
+                 <p>MECHANICAL-80</p>
+                 <P>POLYTECHNIC-50</P>
+                 <p>BPHARM-60</p>
+                 <p>MPHARM-60</p>
+                 <P>DPHARM-30</P>
+                 <P>MBA-30</P>
+                 <P>BBA-90</P>
+                 <P>BCA-90</P>
+                 </div>
+                </div>
+                <div class="Approve">
+                 <h3><u style="color: orangered;">Approve and affiliation</u></h3>
+                 <img src="makaut.jpg" class="makaut">
+                </div>
+            </div>
+            <div class="down">
+                <h1>ADMISSION GOING ON FOR 2020-2021 BATCH.</h1>
+            </div>
+    </section>
+</body>
+<script>
+    let car=document.getElementById('bcet');
+    let images=['bcet.jpg','bcet3.jpg','lib.jpeg'];
+    let i=0;
+    function left(){
+     if(i<=0) i=images.length;
+     i--;
+     return setImg();
+    }
+    function right(){
+        if(i>=images.length-1) i=-1;
+        i++;
+        return setImg();
+
+    }
+    function setImg(){
+        return car.setAttribute('src','images/'+images[i]);
+    }
+   
+</script>
+</html>
